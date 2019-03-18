@@ -1,0 +1,32 @@
+#Python version
+import sys
+print('Python: {}'.format(sys.version))
+
+#SciPy
+import scipy
+print('scipy: {}'.format(scipy.__version__))
+
+#NumPy
+import numpy
+print('numpy: {}'.format(numpy.__version__))
+
+#Matplotlib
+import matplotlib
+print('matplotlib: {}'.format(matplotlib.__version__))
+
+#Pandas
+import pandas
+print('pandas: {}'.format(pandas.__version__))
+
+#scikit-learn
+import sklearn
+print('sklearn: {}'.format(sklearn.__version__))
+
+#import csv
+#with open('iris.csv') as csv_file:
+  #iris_db = csv_reader(csv_file, delimiter = ',')
+
+#print(iris_db)
+import os
+print(os.getcwd())
+os.chdir('D:\\Data Science\\Iris')
